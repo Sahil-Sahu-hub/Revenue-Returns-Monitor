@@ -12,7 +12,7 @@ The intended audience includes C-level executives, finance directors, category m
 The scope of this project goes beyond visualization: it incorporates systematic data cleaning, engineered profitability metrics, and governance-ready documentation. Deliverables include reproducible ETL pipelines, a monitoring dashboard, and a lightweight runbook for future iterations.
 
 ## Problem Statement
-The business currently maintains a wide product portfolio, yet lacks clarity on which categories and SKUs drive the majority of profitability. This opacity hinders effective restructuring and misallocates operational resources. Leadership requires a data-driven framework to identify high-performing products, underperforming segments, and market-level trends. Success will be measured by: (a) clarity on top 20% of products driving 80% of revenue, (b) profit margin uplift opportunities identified, (c) actionable recommendations for discontinuation or investment. KPIs include gross margin %, category-level revenue share, SKU-level contribution margin, and market growth rate.
+The business has a wide product portfolio, but it’s not clear which categories and products are truly driving profitability. As they look to restructure, leadership needs clarity on where to focus resources for maximum impact across different markets. 
 
 ## Tools and Technologies
 - **Languages:** Python 3.11, SQL (MySQL 8.0)  
