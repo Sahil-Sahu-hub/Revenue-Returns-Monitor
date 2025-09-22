@@ -14,46 +14,6 @@ The scope of this project goes beyond visualization: it incorporates systematic 
 ## Problem Statement
 The business has a wide product portfolio, but it’s not clear which categories and products are truly driving profitability. As they look to restructure, leadership needs clarity on where to focus resources for maximum impact across different markets. 
 
-## Tools and Technologies
-- **Languages:** Python 3.11, SQL (MySQL 8.0)  
-- **Libraries:** pandas, numpy, matplotlib, seaborn, plotly, scikit-learn  
-- **Visualization:** Power BI, Streamlit (for lightweight prototype)  
-- **Database:** MySQL, SQLite (for local testing)  
-- **Workflow & Containerization:** Docker, Airflow (optional for orchestration)  
-- **Version Control:** Git/GitHub  
-
-## Methods
-1. **Data Ingestion**  
-   - Imported sales, product, and market data from CSV/SQL sources.  
-   - Established schema alignment (standardized product IDs, date formats).  
-
-2. **Data Cleaning**  
-   - Removed duplicates and outliers.  
-   - Imputed missing values with median (numeric) and mode (categorical).  
-
-3. **Feature Engineering**  
-   - Derived gross margin %, contribution margin per SKU.  
-   - Created category-level revenue share metrics.  
-   - Engineered rolling averages for demand volatility tracking.  
-
-4. **Exploratory Data Analysis (EDA)**  
-   - Revenue concentration curves (Pareto principle validation).  
-   - Market-wise profitability segmentation.  
-   - Product lifecycle visualization.  
-
-5. **Validation & Stress Testing**  
-   - Cross-validated profitability figures against finance-provided control data.  
-   - Performed sensitivity analysis on margin assumptions.  
-
-6. **Dashboard Development**  
-   - Built Power BI report with drill-through functionality.  
-   - Deployed a lightweight Streamlit prototype for rapid iteration.  
-
-7. **Evaluation Metrics**  
-   - % revenue from top categories.  
-   - % products below profitability threshold.  
-   - [REPLACE_WITH_ACTUAL_METRIC] from evaluation script (`python src/eval.py`).  
-
 ## Key Insights
 - Apparel, Books, and Electronics are core revenue categories, but Electronics is more regionally volatile.
 - Return rates are driven not just by percentages but by order volume (e.g., Nigeria had most returns due to high sales volume despite moderate return rates).
